@@ -1,0 +1,34 @@
+src/*.exe
+src/AzerothCoin
+src/AzerothCoind
+src/test_AzerothCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.AzerothCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+AzerothCoin-qt
+AzerothCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+AzerothCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

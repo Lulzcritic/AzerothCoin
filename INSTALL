@@ -1,0 +1,9 @@
+Building AzerothCoin
+
+See doc/readme-qt.rst for instructions on building AzerothCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of AzerothCoin.
+
+See doc/build-*.txt for instructions on building AzerothCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of AzerothCoin.
